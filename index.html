@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Berlitz Workshop</title>
+	<link rel="stylesheet" href="style.css">
+	<link href='https://fonts.googleapis.com/css?family=Raleway:400,700' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<section>
+		<h1>What are HTML and CSS used for?</h1>
+		<h2>You can think of HTML as the skeleton that gives every webpage structure.</h2>
+		<h2>Think of it like skin and makeup that covers the bones of HTML.</h2>
+		<h2 class="reveal">HTML stands for HyperText Markup Language.</h2>
+	</section>
+	<section>
+		<h1>Things inside < > are called tags</h1>
+		<h2>Tags nearly always come in pairs: an opening tag and a closing tag.</h2>
+		<h2>Example of opening tag: &lt;html&gt;<br>
+		Example of closing tag: &lt;/html&gt;</h2>
+		<!-- <h2 class="reveal">Put in the &lt;!DOCTYPE HTML&gt; tag.<br>
+		Put in the &lt;html&gt; opening and closing tags.<br>
+		Between the &lt;html&gt; tags, write whatever you like.</h2> -->
+	</section>
+	<section>
+		<h1>There are always two parts to an HTML file: the head and the body.</h1>
+		<h2>The head contains information about your HTML file, like its title.</h2>
+		<h2>The body is where you put your content, such as text, images, and links.</h2>
+		<reveal class="h2"></reveal>
+	</section>
+	<section>
+		<h1>Type in the following...</h1>
+<xmp>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Name of your page</title>
+</head>
+<body>
+	
+</body>
+</html>
+</xmp>
+		<h2></h2>
+		<h2 class="reveal">Create all types of headings &lt;h1&gt; to &lt;h6&gt; and with paragraphs &lt;p&gt;... Don't forget to close the tags.</h2>
+	</section>
+	<section>
+		<h1>Putting the Link into HTML</h1>
+		<h2>Hypertext means "text with links in it."</h2>
+		<xmp class="reveal"><a href="http://sendMeThere.com"></a></xmp>
+		<h2 class="reveal"></h2>
+	</section>
+	<section>
+		<h1>Image tags</h1>
+		<h2>img tags have / in the tag to close it:</h2>
+		<xmp><img src="url" /></xmp>
+		<h2>Construct a linked image?</h2>
+		<xmp class="reveal"><a href="url"><img src="url" /></a></xmp>
+	</section>
+	<section>
+		<h1>Ordered and Unordered Lists</h1>
+		<h2>Want to make some lists?</h2>
+		<h2></h2>
+		<xmp>
+		<h1>List of my favorite things</h1>
+		<ol>
+			<li>raindrops on roses</li>
+			<li>whiskas on kittens</li>
+			<li>call of duty: modern warfare</li>				
+		</ol>
+		<h2>List of things I find ok</h2>
+		<ul>
+		    <li>the sound of silence</li>
+		    <li>salzburg</li>
+		    <li>stuff</li>
+		</ul></xmp>
+
+		<div class="reveal">
+		    <h3>List of my favorite things</h3>
+			<ol>
+				<li>raindrops on roses</li>
+				<li>whiskas on kittens</li>
+				<li>call of duty: modern warfare</li>				
+			</ol>
+		<h3>List of things I find ok</h3>
+		    <ul>
+		        <li>the sound of silence</li>
+		        <li>salzburg</li>
+		        <li>stuff</li>
+		    </ul>
+		</div>
+	</section>
+	<section>
+		<h1>Nesting Lists in Lists</h1>
+		<xmp>
+		<ol>
+			<li>Dad's interests
+				<ul>
+					<li>football</li>
+					<li>knitting</li>
+				</ul>
+			</li>
+			<li>Mom's interests
+				<ul>
+					<li>hating football</li>
+					<li>skydiving</li>
+				</ul>
+			</li>
+		</ol>
+		<ul>
+		    <li>favourite boys' names</li>
+		        <ol>
+		            <li>h</li>
+		            <li>b</li>
+		            <li>c</li>
+		        </ol>
+		    <li>favourite girls' names'</li>
+		        <ol>
+		            <li>h</li>
+		            <li>b</li>
+		            <li>c</li>
+		        </ol>
+		</ul></xmp>
+		<h2></h2>
+		<h2></h2>
+		<h2 class="reveal"></h2>
+	</section>
+	<section>
+		<h1>In-line CSS</h1>
+		<h2>We can give tags more instructions by including attributes in the opening tag.</h2>
+		<xmp>
+	<h2 style="color:red">
+	<h2 style="color: green; font-size:12px">
+	<h1 style="font-family: Arial">
+	<p style = "font-size:14px; color: orange; font-family: Bodoni; text-align:center">
+		</xmp>
+		<h2 class="reveal"></h2>
+	</section>
+	<section>
+		<h1>Background colo(u)r</h1>
+		<xmp>
+		<body style="background-color: black; color:white">
+			<h3>Favorite Football Teams</h3>
+			<ol style="background-color: white; color:green">
+				<li>The Collingwood Football Club</li>	
+				<li>Werder Bremen</li>
+				<li>none</li>
+			</ol>			
+		</body>
+		</xmp>
+		<h2></h2>
+		<h2 class="reveal"></h2>
+	</section>
+	<section>
+		<h1>Be <strong>Bold</strong> and some pun with <em>italics</em></h1>
+		<xmp>
+			<strong></strong> 
+			<em></em>
+		</xmp>
+		<h2></h2>
+		<h2 class="reveal"></h2>
+	</section>
+	<section>
+		<h1>Tables</h1>
+		<h2>You don't really create columns in &lt;table&gt;s: instead, you tell each row how many cells to have, and that determines your number of columns</h2>
+		<div class="col">
+		<table border="1px">
+            <tr>
+                <td>King Kong</td>
+                <td>1933</td>     
+            </tr>
+            
+            <tr>
+                <td>Dracula</td>
+                <td>1897</td>
+            </tr>
+            
+            <tr>
+                <td>Bride of Frankenstein</td>
+                <td>1935</td>
+            </tr>
+        </table>
+		<xmp>
+	<table border="1px">
+            <tr>
+                <td>King Kong</td>
+                <td>1933</td>     
+            </tr>
+            <tr>
+                <td>Dracula</td>
+                <td>1897</td>
+            </tr>
+            <tr>
+                <td>Bride of Frankenstein</td>
+                <td>1935</td>
+            </tr>
+	</table>
+		</xmp>
+		</div>
+		<div class="col">
+		  <table border="1px">
+            <thead>
+            	<tr>
+                    <th colspan="2">Famous Monsters by Birth Year</th>
+                </tr>
+                <tr>
+                    <th>Famous Monster</th>
+                    <th>Birth Year</th>
+                </tr>
+            </thead>
+            <tbody>
+            	<tr>
+                <td>King Kong</td>
+                <td>1933</td>     
+            </tr>
+            <tr>
+                <td>Dracula</td>
+                <td>1897</td>
+            </tr>
+            <tr>
+                <td>Bride of Frankenstein</td>
+                <td>1935</td>
+            </tr>
+            </tbody>
+    </table>
+		<xmp>
+	<table border="1px">
+            <thead>
+            	<tr>
+                    <th colspan="2">Famous Monsters by Birth Year</th>
+                </tr>
+                <tr>
+                    <th>Famous Monster</th>
+                    <th>Birth Year</th>
+                </tr>
+            </thead>
+            <tbody>
+            	<tr>
+                <td>King Kong</td>
+                <td>1933</td>     
+            </tr>
+            <tr>
+                <td>Dracula</td>
+                <td>1897</td>
+            </tr>
+            <tr>
+                <td>Bride of Frankenstein</td>
+                <td>1935</td>
+            </tr>
+            </tbody>
+    </table>
+		</xmp>
+		</div>
+	</section>
+	<section>
+		<h1>Divs</h1>
+		<h2>Short for "division," &lt;div&gt; allows you to divide your page into containers (that is, different pieces). This will come in handy when you begin learning CSS</h2>
+		<h2></h2>
+		<div style="height:50px; background-color:red"></div><!-- width:50px; --> 
+		<div style="width:50px; height:50px; background-color:blue"></div>
+		<div style="width:50px; height:50px; background-color:green"></div>
+		<div style="width: 50px; height:50px; background-color: yellow"></div>
+		<xmp>
+			<div style="height:50px; background-color:red"></div> <!-- NOTE Missing width:50px; --> 
+			<div style="width:50px; height:50px; background-color:blue"></div>
+			<div style="width:50px; height:50px; background-color:green"></div>
+			<div style="width: 50px; height:50px; background-color: yellow"></div>
+		</xmp>
+	</section>
+</body>
+</html>
+

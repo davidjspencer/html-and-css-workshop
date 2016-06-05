@@ -1,0 +1,59 @@
+/*• Describe 'selectors', 'properties' and 'values' and implement property-values*/
+	selector {
+      property: value;
+	}
+
+	p {
+      color: red;
+	}
+
+	p {
+      font-family: Arial;
+      color: blue;
+      font-size: 24px;
+	}
+
+• Illustrate CSS syntax and comments
+
+• Explain why hexadecimal values are used in CSS
+	Impossible to name all colours
+	Hex values always start with a pound sign (#), are up to six "digits" long, and are case-insensitive: that is, they don't care about capitalization.
+/*• Explain why 'em' units are needed and the need for default fonts as backups*/
+• Create backgrounds and borders and style them
+
+td{
+    height: 50px;
+    border: 1px dashed blue;
+}
+
+table{
+    border: 1px solid black;
+}
+/* Links */
+a{
+    color: #cc0000;
+    text-decoration: none;
+}
+/* Images */
+img{
+    height: 100px;
+    width: 300px;
+    border: 1px solid #4682b4;
+}
+
+/* select nested element */
+div div p {
+    /*CSS stuff!*/
+}
+
+/* There's also a very special selector you can use to apply CSS styling to every element on the page: the * selector*/
+
+.class {
+	/* Code */
+}
+
+/* <div class="class" id="id"></div>*/
+
+#id {
+	/* Code */
+}

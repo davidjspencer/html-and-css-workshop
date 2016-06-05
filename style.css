@@ -1,0 +1,42 @@
+* {
+	
+	background-color: #e6d3b9;
+	color: #7fb1ac;
+	font-family: Raleway;
+}
+
+section {
+	min-height: 90vh;
+	padding: 5%;
+	clear: both;
+}
+h1 {
+	font-size: 2.5em;
+	color: #738655;
+	text-align: center;
+}
+h2 {
+	font-size: 1.5em;
+	text-align: left;
+	
+}
+.reveal {
+	opacity: 0;
+	
+	
+}
+.reveal:hover {
+	opacity: 1;
+	
+}
+xmp {
+	text-align: left;
+	font-size: 1.2em;
+	font-weight: lighter;
+	color: #ac7fb1;
+}
+.col {
+	width: 45%;
+	float: left;
+	margin-top: 40px;
+}
